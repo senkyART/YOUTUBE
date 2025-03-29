@@ -485,6 +485,7 @@
             align-items: center;
             cursor: pointer;
         }
+        /* Masque le contenu droit sur mobile */
         .right {
             display: none;
         }
@@ -523,6 +524,7 @@
         .bar1 ion-icon {
             font-size: 75px;
         }
+        /*acceuil shorts ... */
         .choix {
             display: flex;
             background-color: rgb(20, 19, 19);
@@ -546,6 +548,7 @@
             font-family: "Roboto", "Arial", sans-serif;
             transition: background-color 0.3s ease;
         }
+        /* youtube logo + MA*/
         .tex {
             color: #7a7474;
             font-family: monospace;
@@ -636,6 +639,7 @@
         .video-info {
             color: white;
         }
+        /* logo de chaine */
         .avatar img {
             width: 91px;
             height: 91px;
