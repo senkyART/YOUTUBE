@@ -691,3 +691,132 @@
             width: 262%;
         }
     }
+    /*pour tablet Ipad pro */
+    
+    @media (max-width: 1024px) and (min-width: 932px) {
+        .header {
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 9%;
+        }
+        .bar1 {
+            background-color: rgb(20, 19, 19);
+            display: flex;
+            flex-direction: ROW;
+            JUSTIFY-CONTENT: space-around;
+            position: fixed;
+            top: 56%;
+            left: 0%;
+            width: 100%;
+            height: 7%;
+            margin-top: 4px;
+            transform: translateY(511PX);
+        }
+        .bar1 ion-icon {
+            font-size: 65px;
+        }
+        .nav .bar1 a {
+            color: white;
+            font-size: 22px;
+            font-family: 'DM Sans';
+        }
+        .choix {
+            top: 99px;
+            margin-left: 33px;
+        }
+        .input1 {
+            background-color: #39393979;
+            height: 54px;
+            width: 70%;
+            border: none;
+            border-bottom-left-radius: 22px;
+            border-top-left-radius: 22px;
+            padding-left: 10px;
+            color: white;
+            font-size: 22px;
+        }
+        .rec h1 {
+            color: white;
+            background-color: #333;
+            background-repeat: no-repeat;
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-family: "Roboto", "Arial", sans-serif;
+            transition: background-color 0.3s ease;
+        }
+        .apres i {
+            font-size: 25px;
+        }
+        .tex img {
+            height: 51px;
+            margin-right: 11px;
+        }
+        .srch {
+            margin-right: 15px;
+            background-color: #39393900;
+            height: 53px;
+            width: 83px;
+            border: none;
+            border-bottom-right-radius: 22px;
+            border-top-right-radius: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .srch ion-icon {
+            color: white;
+            font-size: 45px;
+        }
+        .mic1 {
+            display: none;
+        }
+        .video-card {
+            width: 48%;
+            height: auto;
+            margin-left: 10px;
+            MARGIN-RIGHT: auto;
+        }
+        .thumbnail {
+            height: 250px;
+        }
+        .avatar img {
+            width: 50px;
+            height: 50px;
+        }
+        .video-details h3 {
+            font-size: 18px;
+        }
+        .channel-name,
+        .video-stats {
+            font-size: 14px;
+        }
+        .video-grid {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 15%;
+        }
+        .short {
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            transition: transform 0.2s ease;
+            width: auto;
+            height: auto;
+            padding: 0%;
+        }
+        .courte {
+            display: flex;
+            flex-direction: row;
+        }
+        .bar {
+            display: none;
+        }
+        .right {
+            display: none;
+        }
+    }
